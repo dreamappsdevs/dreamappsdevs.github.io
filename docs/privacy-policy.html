@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Smart Money AI</title>
+    <!-- Outfit Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #050505;
+            --card-bg: rgba(20, 20, 20, 0.7);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent: #58a6ff;
+            --accent-glow: rgba(88, 166, 255, 0.12);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --neon-blue: #60a5fa;
+            --neon-green: #00ff87;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-color);
+            background-image: radial-gradient(circle at top right, rgba(96, 165, 250, 0.05), transparent 60%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 24px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            color: #ffffff;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 40%, #a1a1aa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            color: #ffffff;
+            font-size: 1.6rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-top: 50px;
+        }
+
+        h3 {
+            font-family: 'Outfit', sans-serif;
+            color: var(--neon-blue);
+            font-size: 1.2rem;
+            margin-top: 25px;
+        }
+
+        p, ul, ol {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 30px 0;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+            position: relative;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            border-radius: 16px;
+            padding: 1px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--neon-green);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background-color: var(--accent-glow);
+            color: var(--accent);
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Smart Money AI</h1>
+        <div class="subtitle">Privacy Policy</div>
+        <p><strong>Last Updated:</strong> June 29, 2026</p>
+    </header>
+
+    <div class="card">
+        <h3>🔒 Local-First, Zero-Cloud Promise</h3>
+        <p>Smart Money AI is developed by <strong>Dream Apps Labs</strong>. The application operates strictly as a local-first utility. We do not require account registration, email log-ins, or profile creation. All financial data, transaction histories, and budgets are processed and stored natively on your local device.</p>
+    </div>
+
+    <h2>1. Information We Access and Process</h2>
+    <p>Since the application operates entirely offline, <strong>we do not collect, transmit, share, or store any personal or financial user data on external servers.</strong></p>
+    
+    <h3>A. Notification Access & SMS Alerts</h3>
+    <p>To automate the tracking of expenses, the app requests permission to monitor incoming notification text from financial applications (such as UPI receipts and banking alerts). This parsing is performed entirely on your device. The app reads only transaction-specific fields: amount, merchant/sender name, and timestamp. The contents of these notifications are never sent over the internet, nor are they accessible to the developers or third parties.</p>
+
+    <h3>B. Device Permissions</h3>
+    <ul>
+        <li><strong>Notification Access:</strong> Used solely to detect and categorize financial transaction alerts from your payment apps. You can enable or disable this access at any time in Android settings.</li>
+        <li><strong>Biometric Credentials:</strong> Used to secure local access to the application. The app does not access, read, or store your biometric templates; authentication is handled securely by the Android OS.</li>
+        <li><strong>Device Storage:</strong> Used to import banking statements (CSV/Excel files) or export financial summary reports (PDF format).</li>
+    </ul>
+
+    <h2>2. Third-Party Services</h2>
+    <p>We utilize trusted Google APIs for billing and secure backup storage. These third-party services may collect data according to their respective privacy policies:</p>
+    <ul>
+        <li><strong>Google Play Services:</strong> Used for core application framework functionalities. [<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>]</li>
+        <li><strong>Google Play Billing:</strong> Used to process in-app purchases and subscriptions securely. [<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>]</li>
+        <li><strong>Google Drive API:</strong> If you choose to enable the optional cloud backup feature, the app exports an encrypted database backup directly to your personal Google Drive account. The backup is protected with AES-256 encryption. We do not have access to your Google account, credentials, or backup data.</li>
+    </ul>
+
+    <h2>3. Important Financial Disclosures</h2>
+    <p><strong>No Loan or Credit Services:</strong> Smart Money AI is strictly a personal utility tracker. We do not provide, facilitate, or advertise personal loans, lines of credit, or financial lending services. We do not assess user creditworthiness, report to credit bureaus, or partner with micro-lending institutions.</p>
+
+    <h2>4. Data Control and Deletion</h2>
+    <p>You maintain absolute ownership and control over your data. Since we do not host or store your information on external databases:
+        <ul>
+            <li>To delete your transaction history, you can clear the application's storage in your device Settings, or select the reset options within the app settings.</li>
+            <li>Uninstalling the application from your device will permanently erase all local databases, analytics, and transaction logs.</li>
+        </ul>
+    </p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Our application is not structured to attract children under the age of 13. Because we operate offline and collect zero data, we do not store or process information from minor users.</p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any modifications will be posted on this page with an updated "Last Updated" date.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or our offline practices, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:dreamapps1947@gmail.com">dreamapps1947@gmail.com</a></p>
+
+    <div class="footer">
+        <p>&copy; 2026 Dream Apps Labs. All rights reserved.</p>
+    </div>
+</div>
+
+</body>
+</html>
